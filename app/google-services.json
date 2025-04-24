@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639262297213",
+    "project_id": "tlumaczccandroid",
+    "storage_bucket": "tlumaczccandroid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639262297213:android:531314b53457b81243b514",
+        "android_client_info": {
+          "package_name": "com.example.tlumaczccandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzC5SDRw2YGIWPSE5lQoTwED7hDlnyhWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

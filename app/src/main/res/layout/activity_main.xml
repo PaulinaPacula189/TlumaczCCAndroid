@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz tekst do przetłumaczenia"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="6"
+        android:gravity="top|start" />
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tłumacz"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/translatedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutaj pojawi się tłumaczenie"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000" />
+
+</LinearLayout>
