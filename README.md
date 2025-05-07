@@ -23,6 +23,16 @@ Aplikacja mobilna do tłumaczenia tekstu z języka polskiego na angielski (Googl
 3. Uruchom aplikację na emulatorze.
 4. Zarejestruj się, potem zaloguj się i przetłumacz tekst!
 
+## Zrzuty ekranu
+
+### Wynik działania aplikacji
+![Wynik działania aplikacji](screenshots/wynik_dzialania_aplikacji.png)
+
+### Rejestracja
+![Rejestracja](screenshots/rejestracja.png)
+
+### Obsługa błędów
+![Obsługa błędów](screenshots/obslugabledu.png)
 
 ## Autor
 Paulina Pacuła
