@@ -26,7 +26,7 @@ Aplikacja mobilna do tłumaczenia tekstu z języka polskiego na angielski (Googl
 ## Zrzuty ekranu
 
 ### Wynik działania aplikacji
-![Wynik działania aplikacji](screenshots/wynikdzialaniaaplikacji.png)
+![Wynik działania aplikacji](screenshots/wynikdzialaniaaplikacji_.png)
 
 ### Rejestracja
 ![Rejestracja](screenshots/rejestracja.png)
