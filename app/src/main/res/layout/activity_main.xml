@@ -1,35 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="#F9FAFB">
 
-    <EditText
-        android:id="@+id/inputEditText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wpisz tekst do przetłumaczenia"
-        android:inputType="textMultiLine"
-        android:minLines="3"
-        android:maxLines="6"
-        android:gravity="top|start" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-    <Button
-        android:id="@+id/translateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tłumacz"
-        android:layout_marginTop="16dp" />
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tłumacz CC"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:layout_marginBottom="24dp" />
 
-    <TextView
-        android:id="@+id/translatedTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tutaj pojawi się tłumaczenie"
-        android:textSize="18sp"
-        android:layout_marginTop="24dp"
-        android:textColor="#000000" />
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Wpisz tekst do przetłumaczenia"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:layout_marginBottom="16dp" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/buttonTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Przetłumacz"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#2563EB"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tłumaczenie pojawi się tutaj"
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:padding="16dp"
+            android:background="#E5E7EB"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:minHeight="100dp" />
+    </LinearLayout>
+</ScrollView>

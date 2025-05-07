@@ -1,11 +1,11 @@
 # TłumaczCCAndroid
 
-Aplikacja mobilna do tłumaczenia tekstu z języka polskiego na angielski (LibreTranslate).
+Aplikacja mobilna do tłumaczenia tekstu z języka polskiego na angielski (Google Translate API).
 
 ## Funkcje
 
 - Logowanie użytkownika (Firebase Authentication)
-- Tłumaczenie tekstu z języka polskiego na angielski (LibreTranslate API)
+- Tłumaczenie tekstu z języka polskiego na angielski (Google Translate API)
 - Obsługa błędów i sprawdzanie połączenia z internetem
 - Intuicyjny interfejs użytkownika
 
@@ -13,16 +13,26 @@ Aplikacja mobilna do tłumaczenia tekstu z języka polskiego na angielski (Libre
 
 - Java (Android)
 - Firebase Authentication
-- LibreTranslate API
+- Google Translate API
 - Android Studio
 
 ## Uruchomienie
 
 1. Otwórz projekt w Android Studio
 2. Upewnij się, że masz połączenie z internetem
-3. Uruchom aplikację na emulatorze lub fizycznym urządzeniu
-4. Zaloguj się i przetłumacz tekst!
+3. Uruchom aplikację na emulatorze.
+4. Zarejestruj się, potem zaloguj się i przetłumacz tekst!
+
 
 ## Autor
-
 Paulina Pacuła
+
+## Licencja
+
+Projekt korzysta z następujących usług zewnętrznych:
+
+- Firebase Authentication (Apache License 2.0)  
+  https://firebase.google.com/terms/
+
+- Google Translate API (Google Cloud Terms of Service)  
+  https://cloud.google.com/translate/terms
